@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    font-family: "Teko", sans-serif;
+background-color: black;
+}
+.navbar{
+    background-color:black;
+    position: fixed;
+    padding: 10px 16px;
+    /* display:flexbox; */
+    align-items: center;
+    opacity: 0.2;
+
+}
+.navbar .navbar-brand{
+    font-size: 13px;
+    color:#033751 ;
+    font-family: "Roboto Mono", monospace;
+font-weight: 800;
+
+
+
+
+}
+.navbar .navbar-nav .nav-item a:hover{
+    color: blue;  
+}
+
+.navbar .navbar-nav .nav-item a
+{
+
+    color:black ;
+    font-weight: 600;
+    font-size: 13px;
+    margin-left: 25px;
+
+
+}
+.section-a{
+    
+    display: flex; 
+            align-items: center; 
+            justify-content: center; 
+            flex-direction: column; 
+            width: 100%;          
+            min-height: 400px; 
+           
+}
+.section-a h3{
+    margin-top: 150px;
+    color: #e5f4fb;
+    font-size: 28px;
+    font-weight: 400;
+
+}
+.section-a h1{
+    color: #e5f4fb;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+.section-a h1 span{
+      background-image: linear-gradient(to right,rgb(188, 7, 164), rgb(48, 19, 192));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.section-a p{
+    color: bisque;
+    font-size: 20px;
+}
+.section-a .btn{
+    background-image: linear-gradient(to right,rgb(188, 7, 164), rgb(48, 19, 192));
+    height: 50px;
+    width: 150px;
+font-weight: 600;
+border-radius: 10px;
+}
+.section-b{
+    padding-top: 50px;
+}
+.section-b h1{
+    margin-top: 100px;
+    color:aliceblue;
+    font-weight: 800;
+    font-size: 40px;
+    
+}
+.section-b h3{
+    color:chocolate;
+    font-weight: 500px;
+    font-size: 25px;
+    padding-top: 20px;
+    
+}
+.section-b h2{
+    color:aliceblue;
+    font-weight: 900px;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-top: 5px;
+ 
+}
+
+.section-b p{
+    padding-top: 8px;
+    font-size: 18px;
+    color: aliceblue;
+    font-weight: 400;
+    
+}
+.section-b table td span{
+    color:green;
+    font-size: 10px;
+    
+}
+.section-b .table td
+{
+    color: aliceblue;
+    font-size:20px ;
+    background-color: black;
+    border-style: hidden;
+}
+.achieve
+{
+    font-size: 18px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    background-image: linear-gradient(to right,rgb(188, 84, 84), rgb(48, 19, 192));
+  }
+  
+  .title {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+  }
+  
+  a {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  button:hover, a:hover {
+    opacity: 0.7;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+  }
+.rounded-circle
+{
+    margin-left: 80px;
+    margin-right: 60px;
+}
+
+.about_me{
+    margin-top: 100px;
+}
+.education .heading h1{
+font-size: 30px;
+background-image: linear-gradient(to right,rgb(212, 211, 211), rgb(29, 10, 126));
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 700px;
+
+}
+.education{
+    padding-top: 50px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+}
+.content .vertical
+{
+    border-left: 1px solid blue;
+    height: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+ .iconb{
+    border-radius: 100px;
+    border:1px solid rgb(92, 230, 230);
+    height: 25px;
+    width: 25px;
+    /* background-color: aquamarine; */
+}
+#education_section
+{
+    background-color: black;
+    padding: 80px 0px;
+}
+#education_section .edu_title{
+    color: #033751;
+    font-size: 40px;
+    margin-bottom:50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.education{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0px;
+}
+.education_info
+{
+   display: flex;
+   color: #e5f4fb;
+   justify-content: center;
+   width: 500px;
+   position:relative; 
+   margin-left: 30px;
+}
+.education_info h1{
+    margin-right: 50px;
+    background-color: gray;
+    height: 45px;
+    padding: 5px 5px;
+    font-size: 30px;
+    color: #ffff;
+    position: relative;
+}
+.education_info h1::after{
+    content: "";
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-color:transparent gray transparent transparent;
+transform: rotate(180deg);
+border-width:23px;
+position: absolute;
+right: -45px;
+top: 0;
+}
+.edu_content h3{
+color:#e5f4fb;
+font-size: 25px;
+padding: 0 20px 0 30px;
+position: relative;
+}
+.edu_content h5{
+    color:#e5f4fb;
+    font-size: 18px;
+    padding: 0 20px 0 30px;
+    position: relative;
+    }
+
+#project_section{
+    display: flex;
+    padding: 10px;
+    background-color: black
+}
+
+#project_section h1{
+    margin-right: 50px;
+    height: 40px;
+    padding: 5px 5px;
+    font-size: 30px;
+    position: relative;
+    background-image: linear-gradient(to right,rgb(98, 82, 82), rgb(191, 160, 7));
+background-clip: text;
+-webkit-text-fill-color: transparent;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: 600;
+}
+#project_section h2{
+    padding: 15px;
+    font-size: 25px;
+    color: #e5f4fb;
+    
+}
+#project_section p{
+    font-size: 19 px;
+    color: white;
+}
+#project_section h3{
+    font-size: 15px;
+    color: #e5f4fb;
+}
+.pro_dis{
+    border: 2px solid black;
+    flex: 1;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #ccc;
+
+}
+
+
+.footer{
+    margin-top: 10px;
+}
+.footer h1{
+    color: #e5f4fb;
+    font-size: 18px;
+    font-weight: 200px;
+    margin-bottom: 30px;
+}
+.footer i{
+font-size: 25px;
+color: aliceblue;
+padding-right: 20px;
+padding-left: 20px;
+
+}
+.footer i:hover{
+    
+    color: rgb(17, 38, 81);
+    
+    }
+.footer p{
+    color: #e5f4fb;
+    font-size: 10px;
+    font-weight: 200px;
+    margin-top: 10px;
+}
+.table
+{
+    background-color: black;
+}
